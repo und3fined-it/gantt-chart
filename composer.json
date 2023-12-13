@@ -1,21 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
+    "name": "und3fined-it/gantt-chart",
     "description": ":package_description",
-    "keywords": [
-        ":vendor_name",
-        "laravel",
-        ":package_slug"
-    ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/und3fined-it/gantt-chart",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/und3fined-it/gantt-chart/issues",
+        "source": "https://github.com/und3fined-it/gantt-chart"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Agostino Fiscale",
+            "email": "agostino@und3fined.it",
             "role": "Developer"
         }
     ],
@@ -42,13 +37,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Und3fined\\Skeleton\\": "src/",
+            "Und3fined\\Skeleton\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Und3fined\\Skeleton\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -68,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Und3fined\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Skeleton": "Und3fined\\Skeleton\\Facades\\Skeleton"
             }
         }
     },
